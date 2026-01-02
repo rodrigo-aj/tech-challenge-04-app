@@ -95,8 +95,7 @@ page = st.sidebar.radio("Ir para:", ["Simulador de Diagnóstico", "Dashboard Ana
 st.sidebar.markdown("---")
 st.sidebar.info(
     "**Tech Challenge - Fase 4**\n\n"
-    "Sistema de apoio à decisão médica.\n"
-    "Tradução: PT-BR"
+    "Sistema de apoio à decisão médica"
 )
 
 # --- TELA 1: SIMULADOR ---
