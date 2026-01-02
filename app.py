@@ -88,7 +88,6 @@ except FileNotFoundError:
     st.stop()
 
 # --- SIDEBAR ---
-st.sidebar.image("https://img.icons8.com/clouds/200/health-check.png", width=150)
 st.sidebar.title("Navegação")
 page = st.sidebar.radio("Ir para:", ["Simulador de Diagnóstico", "Dashboard Analítico"])
 
