@@ -285,5 +285,5 @@ elif page == "Dashboard Analítico":
         st.plotly_chart(fig, use_container_width=True)
         st.caption("Contexto: Investiga o impacto de calorias vazias. Verifica se o aumento na frequência do consumo de álcool está associado a uma maior incidência de categorias de obesidade.")
             
-    with st.expander("Ver Dados Detalhados"):
+    with st.expander("Ver Dados Detalhadamente"):
         st.dataframe(df_f)
